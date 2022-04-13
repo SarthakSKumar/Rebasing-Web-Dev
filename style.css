@@ -1,3 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
 header {
     background-color: black;
     color: orange;
@@ -5,13 +14,24 @@ header {
 }
 
 .content {
-    height: 400px;
-    background-color: #fff;
+    background-color: red;
+    display: inline-block;
+    height: 50vh;
+    width: 49%;
+    color: black;
+}
+
+.content2 {
+    background-color: green;
+    display: inline-block;
+    height: 50vh;
+    width: 49%;
     color: black;
 }
 
 footer {
-    background-color: purple;
     text-align: center;
+    background-color: purple;
     color: white;
+    font-size: 20px;
 }
