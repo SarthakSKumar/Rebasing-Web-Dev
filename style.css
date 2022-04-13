@@ -1,8 +1,17 @@
-.red {
-    border: 2px solid;
-    background-color: red;
+header {
+    background-color: black;
+    color: orange;
+    height: 70px;
 }
 
-.blue {
-    background-color: blue;
+.content {
+    height: 400px;
+    background-color: #fff;
+    color: black;
+}
+
+footer {
+    background-color: purple;
+    text-align: center;
+    color: white;
 }
