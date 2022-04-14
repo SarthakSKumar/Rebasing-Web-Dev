@@ -3,35 +3,30 @@
     padding: 0;
 }
 
-body {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-}
-
 header {
+    padding: 10px;
+    position: sticky;
+    top: 0;
     background-color: black;
-    color: orange;
-    height: 70px;
-}
-
-.content {
-    background-color: red;
-    display: inline-block;
-    height: 50vh;
-    width: 49%;
-    color: black;
-}
-
-.content2 {
-    background-color: green;
-    display: inline-block;
-    height: 50vh;
-    width: 49%;
-    color: black;
-}
-
-footer {
-    text-align: center;
-    background-color: purple;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 60px;
     color: white;
-    font-size: 20px;
+}
+
+li {
+    display: inline;
+    padding: 5px;
+    font-size: 2vw;
+}
+
+nav {
+    margin: 20px;
+}
+
+.container {
+    background-color: brown;
+    width: 50vw;
+    height: 200vh;
+    margin: auto;
 }
