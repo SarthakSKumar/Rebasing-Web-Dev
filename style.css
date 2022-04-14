@@ -8,18 +8,23 @@ body {
 }
 
 header {
+    display: flex;
     background-color: black;
     height: 8vh;
     color: white;
+    align-items: center;
+}
+
+.image {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 10px
 }
 
 nav {
-    float: right;
-    padding-top: 8px;
-}
-
-ul {
-    padding: 10px;
+    position: absolute;
+    right: 20px;
 }
 
 li {
@@ -31,6 +36,7 @@ li {
 
 .users {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -38,7 +44,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 4rem;
     color: white;
     background-image: url("download.jfif");
     height: 50vh;
