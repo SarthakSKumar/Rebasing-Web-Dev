@@ -3,30 +3,52 @@
     padding: 0;
 }
 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
 header {
-    padding: 10px;
-    position: sticky;
-    top: 0;
     background-color: black;
-    font-size: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 60px;
+    height: 8vh;
     color: white;
+}
+
+nav {
+    float: right;
+    padding-top: 8px;
+}
+
+ul {
+    padding: 10px;
 }
 
 li {
     display: inline;
-    padding: 5px;
-    font-size: 2vw;
+    list-style: none;
+    font-size: 20px;
+    padding: 0 25px;
 }
 
-nav {
-    margin: 20px;
+.users {
+    display: flex;
+    justify-content: center;
 }
 
-.container {
-    background-color: brown;
-    width: 50vw;
-    height: 200vh;
-    margin: auto;
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    background-image: url("download.jfif");
+    height: 50vh;
+}
+
+.user {
+    margin: 30px;
+    padding: 10px;
+    border: 2px solid red;
+    height: 300px;
+    width: 300px;
+    background-image: url("download.jfif");
 }
